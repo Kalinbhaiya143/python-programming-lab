@@ -1,0 +1,8 @@
+f=open('fileread.txt','w')
+f.write('hello\n')
+f.write('we are the student of GLA university student')
+f.close()
+f=open('fileread.txt','r')
+data=f.read()
+print(data)
+f.close()
